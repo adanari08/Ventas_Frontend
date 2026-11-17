@@ -1,12 +1,17 @@
-# tienda-frontend
+# Ventas_Frontend
 
 Frontend en **Vue 3** para consumir el microservicio de Spring Boot de la tienda (productos y ventas).
 
-Repositorio del backend: (poner aqui el link del repo del backend)
+Repositorio del backend: https://github.com/adanari08/Ventas_Backend
 
 ## Que hace
 - **Productos:** ver todos, ver uno (con sus ventas), agregar, editar y eliminar.
 - **Ventas:** ver todas, ver una, registrar, editar y eliminar. Al vender se descuenta el stock.
+
+## Tecnologias
+- Vue 3 + Vite
+- Vue Router
+- Axios
 
 ## Como correrlo
 1. Tener el backend corriendo (por defecto en `http://localhost:8000`).
@@ -18,7 +23,7 @@ Repositorio del backend: (poner aqui el link del repo del backend)
 3. Abrir http://localhost:5173
 
 ## Cambiar la url del backend
-En el archivo `.env`:
+Copiar el archivo `.env.example` a `.env` y poner la url:
 ```
 VITE_API_URL=http://localhost:8000
 ```
